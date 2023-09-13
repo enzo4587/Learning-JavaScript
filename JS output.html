@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h2>JS outputs</h2>
+   <p id='demo'></p><br/>
+   
+   <script>
+    document.getElementById("demo").innerHTML=5+6;       // innerHTML writes into an HTML elment.
+
+    document.write(15+15);                               // document.write() writes into an HTML output.
+
+    window.alert(10+10);                                 //alert writes into an alert box.
+
+    alert(10-10);                                        //alert writes into an alert box.
+
+    console.log(20+25);                                  //console.log writes to the browser's console.
+   </script>
+
+
+   <h2>print this page</h2>
+   
+   <button onclick="window.print()">print me</button>
+
+   <!--JS statements-->
+   
+   <p id="demo2"></p>
+   <script>
+
+    let a=5;
+    let b=5;
+    let c=10;
+    let sum=a+b+c;
+    document.getElementById("demo2").innerHTML=sum;
+
+   </script>
+
+   <p id="demo3"></p>
+   <p id="demo4"></p>
+   <button onclick="myfunction()">click me</button>
+   <script>
+    function myfunction()
+    {
+        document.getElementById("demo3").innerHTML="Hi Samantha";
+        document.getElementById("demo4").innerHTML="How you been a minute."
+    }
+   </script>
+
+   <script>
+    
+   </script>
+</body>
+</html>
