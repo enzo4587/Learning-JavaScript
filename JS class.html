@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS classes</title>
+</head>
+<body>
+    <script>
+        // class person has two methods name and age
+        class person{
+            name (){
+                console.log("enzo john");
+            }
+
+            age (){
+                console.log("21 years");
+            }
+        }
+        // creating an instance of class person
+        person = new person();
+
+        person.name();   // output here is the name of the person
+
+        person.age();       // output here is the age of the person
+    </script>
+
+    <script>
+        class car {
+            start (){
+                document.write("car has started.<br>");
+            }
+
+            stop (){
+                document.write("car has stopped.");
+            }
+        }
+
+        car = new car();
+
+        car.start();
+        car.stop();
+    </script>
+</body>
+</html>
