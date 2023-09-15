@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS objects</title>
+</head>
+<body>
+    <script>
+        // creating an object or object definiton
+
+        /*you create and define an object
+        using an object literal like the example
+        below
+        person is the object and the properties for person are firstname, lastname
+        , eye color and age*/
+        const person = {
+            firstname: "enzo",
+            lastname: "tate",
+            age: 30,
+            eye_color: "brown"
+        };
+
+        // outputing the object details
+        document.write(person.firstname+ " ");
+        document.write(person.lastname+"<br>");             //accessing objects; it's the objectName.propertyName
+        document.write(person["age"]+" years <br>");
+        document.write(person["eye_color"]);
+    </script>
+</body>
+</html>
